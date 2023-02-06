@@ -1,0 +1,64 @@
+#container {
+    margin: 0 auto;
+    width: 490px;
+    margin-top: 20px;
+}
+
+.form-container {
+    display: flex;
+}
+
+#input-1, #correspondence-window, .send {
+    border: solid 4px #bad7ec;
+}
+
+#input-1 {
+    width: 233px;
+    font-size: 15px;
+    padding: 3px 8px;
+    outline: none;
+}
+
+#send-message, #geo {
+    background-color: #bad7ec;
+    border: none;
+    margin-left: 10px;
+    color: #333333;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+#correspondence-window {
+    width: 472px;
+    height: 304px;
+    margin-top: 10px;
+    overflow-y: scroll;
+}
+
+.send {
+    border-radius: 10px;
+    width: 55%;
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    word-break: break-all;
+    color: #131313;
+}
+
+.out-send {
+    margin-left: 181px;
+}
+
+.in-send {
+    margin-left: 5px;
+}
+
+.href {
+    text-decoration: none;
+    color: #417fc1;
+}
+
+a.href:hover{
+    text-decoration: underline;
+}
